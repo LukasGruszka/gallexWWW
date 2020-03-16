@@ -1,0 +1,384 @@
+body	{
+	color: #515151;
+	/*font: 13px 'Ariel', Verdana, sans-serif;*/
+	font: 13px 'Ariel';
+	/*text-align:center;*/
+	background: yellowgreen;
+
+	}
+
+#wrapper{
+	width:1000px;
+	margin: 0 auto 0 auto;
+	background: navajowhite;
+	}
+
+#header {
+        /*background-color: #f89201;*/
+	height:250px;
+	}
+#top_head {
+	height:20px;
+	margin-top:6px;
+	margin-bottom:15px;
+	}
+
+#top_head_one {
+	width:56px;
+	height:20px;
+	background-color:  black;
+	float:left;
+	}
+#top_head_one a {
+	display:inline-block;
+	margin: 2px 2px 2px 4px;
+	background-color:  black;
+	color: #ffffff;
+	text-align:center;
+	width:17px;
+	height:15px;
+	text-decoration:none;
+	}
+#top_head_one a:hover {
+	display:inline-block;
+	margin: 2px 2px 2px 4px;
+	background-color:  blue;
+	color: #ffffff;
+	text-align:center;
+	width:17px;
+	height:15px;
+	text-decoration:none;
+	}
+
+
+#top_head_two {
+	display:inline-block;
+	width:38px;
+	height:20px;
+	background-color:  black;
+	float:left;
+	margin-left:2px;	
+	padding-left:4px;
+	}
+#top_head_two img {
+	display:inline-block;
+	/*margin: 0px 4px 0px 1px;*/
+	padding: 3px 0px 2px 0px;
+	/*background-color:  black;*/
+	width:15px;
+	height:15px;
+	text-decoration:none;
+	}
+#top_head_two img:hover {
+	display:inline-block;
+	/*margin: 0px 4px 0px 1px;*/
+	padding: 3px 0px 2px 0px;
+	/*background-color:  blue;*/
+	width:15px;
+	height:15px;
+	}
+
+
+
+
+#log_head{
+	background-color: #383637;
+	width:212px;
+	
+	float:left;
+	}
+
+#menu 	{
+	width:710px;
+	float:right;
+	margin-left:70px;
+	margin-top:26px
+	}
+
+#menu ul{
+	background-color:  blue;
+	}
+#menu ul li:hover{ 
+	width:101px;
+	height:40px;
+	/*background-color:  #f8f8f8;*/
+	float: left;
+	}
+
+a.miny  {
+        float:left;
+        border-left: 1px solid #d5d5d5;
+        padding-top: 12px;
+        /* background-color:  #f8f8f8; */
+		background-color: tan;
+        color: #000000;
+        text-align:center;
+        width:100px;
+        height:28px;
+        text-decoration:none;
+        font-size:15px;
+        font-family:sans-serif;
+        }
+
+#menu ul li:hover ul li a.chow  {
+        display:block;
+		background: papayawhip;
+	}	
+#menu ul li:hover ul li a.chow:hover  {
+        display:block;
+		background: tan;
+	}
+a.chow 	{
+	position:relative;
+	float:left;
+	display:none;
+	border-left: 1px solid #d5d5d5;
+    	padding-top: 12px;
+	background-color:  #f8f8f8;
+	color: #000000;
+	text-align:center;
+	width:100px;
+	height:28px;
+	text-decoration:none;
+	font-size:15px;
+	font-family:sans-serif;
+	}
+
+
+#content{	
+	font-family:Georgia;
+ 	background-color: #ffffff;
+	min-height:1050px;
+	background: navajowhite;
+	margin: 0 10px 0 10px ;
+	}
+
+
+   a.soon{
+	margin-top: 10px;
+	text-decoration:none;
+	color: #2e2f2d;
+	}
+   a.soon:hover {
+    	color: #024886;
+    	}
+  #nav_five {
+    	height: 280px;
+    /*background: red;*/
+    	text-align: center;
+    	}
+  #ban_con{
+    	height: 175px;
+    /*background: green;*/
+    	padding-top: 5px;
+   	}
+  .nav_banner{
+    /*width: 100%;*/
+    	height: 1000px;
+    	margin-left: 17px;
+   	}
+
+  #nav_five h2 {
+   	margin-top: 5px;
+   	margin-bottom: 5px;
+   	}
+  #coXdni {
+    	float:left;
+    	width: 1050px;
+   	}
+  #kopa {
+    	float:left;
+    	margin-left: 29px ;
+    	width: 120px;
+   	}
+  #kopa a p {
+	text-align:center;
+	margin-left: -2px;
+        }
+  #doba {
+    	float:left;
+    	margin-left: 29px ;
+    	width: 240px;
+   }
+  #doba a p {
+	text-align:center;
+	margin-left: -2px;
+        }
+  a.num {
+	border: 2px solid #585768;
+	display:inline-block;
+	color: #585768;
+	text-align:center;
+	width:22px;
+	height:15px;
+	text-decoration:none;
+	font-size:10px;
+	font-weight: bold;
+        margin-bottom:5px;
+	}
+  a.numactive {
+	border: 2px solid #585768;
+	display:inline-block;
+	background-color: #b1b3c8;
+	color: #585768;
+	text-align:center;
+	width:22px;
+	height:15px;
+	text-decoration:none;
+	font-size:10px;
+	font-weight: bold;
+	}
+  a.num:hover {
+	border: 2px solid #585768;
+	display:inline-block;
+	background-color: #b1b3c8;
+	color: #024886;
+	text-align:center;
+	width:22px;
+	height:15px;
+	text-decoration:none;
+	font-size:10px;
+	font-weight: bold;
+	}
+
+#alterHist {
+	/*padding: 0px 0px 18px 12px;*/
+	}
+#alterHist img{
+	position: absolute;
+	padding: 6px 0px 0px 17px;
+	}
+
+
+#footer	{
+	font-family:Arial;
+	clear:both;
+	text-align:left;
+	color: #ffffff;
+	min-height:30px;
+	}
+
+
+#footer_end{
+	padding: 7px 10px 0px 10px ;
+	width:980px;
+	min-height:23px;
+	background-color: #383637;
+	float:left;
+	border-top: 1px solid white;
+	}
+
+#footer_end p.one{
+	float:left;
+	}
+
+#footer_end p.kon{
+	float:right;
+	}
+
+h2.sidetitle {
+		color: #cccccc;
+    font-weight: bold;
+		font-size:120px;
+    margin: 0px 0px 6px -7px;
+    letter-spacing: -0.07em;
+		width:550px;
+    display: inline-block;
+    }
+
+.post{
+    /*margin-top: 24px;
+    padding-bottom: 31px;
+    border-bottom: 1px solid #e6e6e6;*/
+	background: tan;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 10px;
+    }
+.post p	{
+    font-size: 14px;
+    /*color:#cbcbcd;*/*
+    }
+.post p a{
+    font-size: 15px;
+    /*color:#cbcbcd;*/
+    text-decoration:none;
+    }
+
+a.back {
+	text-decoration: none;
+	font-size: 25px;
+	color: #FFFFFF;
+	text-shadow: -3px 6px 4px #E1EBF7;
+	float: right;
+	background: linear-gradient(180deg, rgba(99, 184, 238, 0.11) 5%, rgba(70, 120, 207, 0.71) 100%);
+	border-radius: 40px; 
+	border: 2px solid #4376BF;
+	padding: 2px 15px;
+	box-shadow: inset 1px 1px 5px 0px #3CA5E6;
+    cursor: pointer;
+	position: relative;
+	top:  -30px;
+    }
+a.back:active {
+    position:relative;
+    top: -31px;
+	}
+
+#listaFunkcji{
+	height: 120px;
+	}
+#listaFunkcji ul {
+	position: relative;
+	top: 30px;
+	}
+
+a.jagoBit {
+	text-decoration: none;
+	font-size: 25px;
+	color: #FFFFFF;
+	text-shadow: -3px 6px 4px #E1EBF7;
+	float: left;
+	background: linear-gradient(180deg, rgba(99, 184, 238, 0.11) 5%, rgba(70, 120, 207, 0.71) 100%);
+	border-radius: 40px; 
+	margin: 5px;
+	border: 2px solid #4376BF;
+	padding: 2px 15px;
+	box-shadow: inset 1px 1px 5px 0px #3CA5E6;
+    cursor: pointer;
+	position: relative;
+	top:  -30px;
+
+    }
+
+h2.titleMuPad {
+	font-size: 25px;
+    }
+
+#ukladSfer {
+	width:950px;
+	background-size: 950px;
+	}
+
+#ukladSfer img{
+    width:90%;
+	border-radius: 10px;
+	}
+
+
+h3	{
+	margin: 0;
+	padding: 1px 0px 3px 0px ;
+	}
+
+p	{
+	/*margin: 0;
+	margin: 0 10px 0 10px ;*/
+	text-align:justify;
+	line-height:1.5;
+	}
+
+
+.clear 	{
+	clear: both;
+	}
